@@ -1,4 +1,4 @@
-#
+
 # Cookbook:: 49apache
 # Recipe:: default
 #
@@ -17,7 +17,7 @@ package 'nmap' do
 end
 
 file "/var/www/html/index.html" do
-	content 'Hellow World...Thak you!'
+	content 'Hellow World...Thak you!. Completed'
 	mode '0755'
 	owner 'root'
 	group 'root'
